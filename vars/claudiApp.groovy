@@ -1,5 +1,4 @@
-def call(string https://github.com/festuge/main-library.git){
-    pipeline {
+     pipeline {
         agent any
         tools {
             maven 'maven'
@@ -24,4 +23,3 @@ def call(string https://github.com/festuge/main-library.git){
             }
         }
     }
-}
